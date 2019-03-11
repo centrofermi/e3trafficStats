@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="Fabrizio Coccetti" />
 <meta name="generator" content="e3monitor" />
 <meta http-equiv="refresh" content="60" />
@@ -10,18 +11,18 @@ Museo Storico della Fisica e Centro Studi e Ricerche Enrico Fermi</title>
 <link href="../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <link rel="stylesheet" type="text/css"
 href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-<link href="e3monitor.css" rel="stylesheet" type="text/css" />
+<link href="../e3monitor.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page-wrap">
-    <p style="margin-bottom:6px;">
-    <img src="../img/logo_centrofermi.png"
-    alt="Centro Fermi" style="width:200px">
-    <img src="../img/logo_EEE.png"
-    alt="Extreme Energy Events" style="width:250px"></p>
-
+<div class="flex">
+<img src="../img/logo_centrofermi.png" alt="Centro Fermi" style="width:200px">
+<div class="title">
 <h2><i>Progetto Extreme Energy Events - La Scienza nelle Scuole</i></h2>
 <h1>EEE connectivity Report at CNAF</h1>
+</div>
+<img src="../img/logo_EEE.png" alt="Extreme Energy Events" style="width:200px">
+</div>
 <div class="time">Last update: TIME_TEMP</div>
 <br>
 <h3>
@@ -29,6 +30,7 @@ EEE Transfers performed with <a href="https://syncthing.net/"><span style="color
 </h3>
 <br>
 <hr style="visibility: hidden; margin: 20px auto;">
+<div style="overflow-x:auto">
 <table>
 <tr><th>Scuola-TEL</th><th>Connessione ultime 2h</th><th>Trasferimenti ultimi 90 min</th><th>File in coda</th>
 <th>Ultimo errore nella DAQ (solo se sull'ultimo file)</th></tr>
@@ -93,6 +95,7 @@ EEE Transfers performed with <a href="https://syncthing.net/"><span style="color
 <tr><td class="gray"><a href="VIAR-02.html">VIAR-02</a></td></tr>
 <tr><td class="gray"><a href="VICE-01.html">VICE-01</a></td></tr>
 </table>
+</div>
 <br>
 <h4>LEGENDA
 <br>
