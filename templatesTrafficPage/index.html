@@ -1,41 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="it">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="Fabrizio Coccetti" />
 <meta name="generator" content="e3monitor" />
-<meta http-equiv="REFRESH" content="60"/>
-<meta http-equiv="Expires" content="0"/>
-<meta http-equiv="PRAGMA" content="NO-CACHE"/>
+<meta http-equiv="refresh" content="60" />
 <title>EEE Monitor -
 Museo Storico della Fisica e Centro Studi e Ricerche Enrico Fermi</title>
 <link href="../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <link rel="stylesheet" type="text/css"
 href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-<link href="e3monitor.css" rel="stylesheet" type="text/css" />
+<link href="../e3monitor.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="page-wrap">
-    <p style="margin-bottom:6px;">
-    <img src="../img/logo_centrofermi.png"
-    alt="banner CF" width="200" />
-    <img src="../img/logo_EEE.png"
-    alt="banner EEE" width="250" /></p>
-
+<div class="flex">
+<img src="../img/logo_centrofermi.png" alt="Centro Fermi" style="width:200px">
+<div class="title">
 <h2><i>Progetto Extreme Energy Events - La Scienza nelle Scuole</i></h2>
 <h1>EEE connectivity Report at CNAF</h1>
+</div>
+<img src="../img/logo_EEE.png" alt="Extreme Energy Events" style="width:200px">
+</div>
 <div class="time">Last update: TIME_TEMP</div>
 <br>
 <h3>
-EEE Transfers performed with <a href="https://syncthing.net/"><font color="black">SYNCTHING</font></a><br>
+EEE Transfers performed with <a href="https://syncthing.net/"><span style="color:black">SYNCTHING</span></a><br>
 </h3>
 <br>
-<h4>
-<!--NOTE:-->
-</h4>
-<br>
-<br>
+<hr style="visibility: hidden; margin: 20px auto;">
+<div style="overflow-x:auto">
 <table>
 <tr><th>Scuola-TEL</th><th>Connessione ultime 2h</th><th>Trasferimenti ultimi 90 min</th><th>File in coda</th>
 <th>Ultimo errore nella DAQ (solo se sull'ultimo file)</th></tr>
@@ -101,6 +96,7 @@ EEE Transfers performed with <a href="https://syncthing.net/"><font color="black
 <tr><td class="gray"><a href="VIAR-02.html">VIAR-02</a></td></tr>
 <tr><td class="gray"><a href="VICE-01.html">VICE-01</a></td></tr>
 </table>
+</div>
 <br>
 <h4>LEGENDA
 <br>
@@ -108,7 +104,7 @@ Se il telescopio è verde nella seconda colonna e rosso nella terza probabilment
 Se il telescopio è rosso nella seconda colonna c'è un problema di connessione con il CNAF (syncthing è attivo sul pc?)<br>
 </h4>
 <br>
-<a href="totalTrafficIN.png"><img width = 100% src="totalTrafficIN.png"/></a>
+<a href="totalTrafficIN.png"><img style="width:100%" src="totalTrafficIN.png" alt="Traffic plot"></a>
 
 </div> <!-- close page-wrap -->
 </body>
